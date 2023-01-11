@@ -1,2 +1,6 @@
---- []
+---
+- title: Charte
+  target: "/charte/"
+  kind: page
+  children: []
 
