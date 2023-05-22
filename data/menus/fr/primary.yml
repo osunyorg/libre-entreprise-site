@@ -1,4 +1,6 @@
 ---
+title: Menu principal
+items:
 - title: Charte
   target: "/charte/"
   kind: page
