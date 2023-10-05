@@ -1,7 +1,8 @@
 ---
-title: >
-  L'entreprise autrement
+title: "L'entreprise autrement"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "L'entreprise autrement"
 url: "/"
 aliases:
   - /translation missing: fr.communication.website.pages.defaults.home.slug/
@@ -20,10 +21,10 @@ translation_key: communication-website-page-cb337f5e-5a8a-4995-a37b-c708a32b1a18
 bodyclass: 
 
 children:
-  - /charte/
-  - /actualites/
-  - /equipe/
-  - /membres/
+  - "content/fr/pages/charte/_index.html"
+  - "content/fr/posts/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/organizations/_index.html"
 meta_description: >
   
 description: >
@@ -79,29 +80,14 @@ contents:
       show_images: false
       layout: grid
       pages:
-        - page: "/charte/"
-          slug: "/charte/"
-        - page: "/membres/"
-          slug: "/membres/"
-      elements:
-        - title: >-
-            Charte
-          summary: >-
-            Cette charte tente de regrouper et définir les principes défendus au sein du réseau Libre-entreprise
+        - path: "/charte/"
           slug: "charte"
-          path: "/charte/"
-          url: "/charte/"
-          bodyclass: >-
-            
-        - title: >-
-            Membres
-          summary: >-
-            Les entreprises du réseau Libre-Entreprise
+          file: "content/fr/pages/charte/_index.html"
+          external: false
+        - path: "/membres/"
           slug: "membres"
-          path: "/membres/"
-          url: "/membres/"
-          bodyclass: >-
-            
+          file: "content/fr/organizations/_index.html"
+          external: false
 
 
 
