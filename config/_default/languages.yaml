@@ -10,12 +10,15 @@ fr:
     social:
   permalinks:
     organizations: /membres/:slug/
+    organizations_categories: /membres/:slug/
   taxonomies:
     administrator: administrators
     author: authors
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
