@@ -9,6 +9,8 @@ fr:
   params:
     social:
   permalinks:
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     organizations: /membres/:slug/
     organizations_categories: /membres/categories/:slug/
   taxonomies:
