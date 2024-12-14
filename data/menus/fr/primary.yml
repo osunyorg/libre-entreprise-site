@@ -5,10 +5,12 @@ items:
   target: "/charte/"
   kind: page
   children: []
+  path: "/pages/charte"
   file: content/fr/pages/charte/_index.html
 - title: Membres
   target: "/membres/"
   kind: page
   children: []
+  path: "/organizations"
   file: content/fr/organizations/_index.html
 
