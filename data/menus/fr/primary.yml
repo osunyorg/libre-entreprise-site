@@ -4,12 +4,14 @@ items:
 - title: Charte
   target: "/charte/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/charte"
   file: content/fr/pages/charte/_index.html
 - title: Membres
   target: "/membres/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
