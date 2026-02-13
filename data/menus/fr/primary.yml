@@ -2,17 +2,21 @@
 title: Menu principal
 items:
 - title: Charte
+  slug: charte
   target: "/charte/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/charte"
   file: content/fr/pages/charte/_index.html
 - title: Membres
+  slug: membres
   target: "/membres/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 
